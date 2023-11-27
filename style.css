@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Josefin+Sans:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color1: #000000;
+  --color2: #656161;
+  --color3: #ffffff;
+  --color4: #953298;
+  --color5: #487569;
+  --font-family1: "DM Sans", sans-serif;
+  --font-family2: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+.title {
+  font-family: var(--font-family2);
+  font-size: 2rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.container {
+  background-color: var(--color2);
+  font-family: var(--font-family1);
+  font-size: 1.3rem;
+}
+
+.container__div1 {
+  background-color: var(--color4);
+}
+
+.container__div2 {
+  background-color: var(--color5);
+}
