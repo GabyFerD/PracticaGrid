@@ -31,12 +31,15 @@ body {
   background-color: var(--color2);
   font-family: var(--font-family1);
   font-size: 1.3rem;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
 }
 
-.container__div1 {
+.container__div {
   background-color: var(--color4);
+  border-radius: 8px;
 }
 
-.container__div2 {
+.container__div:nth-child(even) {
   background-color: var(--color5);
 }
