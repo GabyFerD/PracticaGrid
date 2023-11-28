@@ -63,3 +63,17 @@ body {
   grid-template-rows: 2fr 1fr;
   gap: 10px;
 }
+
+.grid-repeat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  /* grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(2, 200px); */
+  gap: 10px;
+}
+
+.grid-repeat__p {
+  padding-top: 5rem;
+  grid-row: 3;
+}
