@@ -12,6 +12,9 @@
   --color3: #ffffff;
   --color4: #953298;
   --color5: #487569;
+  --color6: #1fc3cf;
+  --color7: #86ed07;
+  --color8: #78234c;
   --font-family1: "DM Sans", sans-serif;
   --font-family2: "Josefin Sans", sans-serif;
 }
@@ -76,4 +79,42 @@ body {
 .grid-repeat__p {
   padding-top: 5rem;
   grid-row: 3;
+}
+
+.grid-areas {
+  display: grid;
+  grid-template-areas:
+    "nav header header"
+    "nav content sidebar"
+    "nav footer footer";
+  gap: 10px;
+}
+
+.div {
+  border-radius: 8px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: var(--color4);
+}
+
+.header {
+  grid-area: header;
+  background-color: var(--color5);
+}
+
+.content {
+  grid-area: content;
+  background-color: var(--color6);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--color7);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--color8);
 }
