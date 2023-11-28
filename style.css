@@ -31,7 +31,7 @@ body {
   background-color: var(--color2);
   font-family: var(--font-family1);
   font-size: 1rem;
-  padding: 2rem 0 2rem 0;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -54,5 +54,12 @@ body {
   display: grid;
   grid-template-columns: 100px 300px;
   grid-template-rows: 250px 80px;
+  gap: 10px;
+}
+
+.grid-fr {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
   gap: 10px;
 }
